@@ -10,6 +10,6 @@ RUN pip install --upgrade pip
 
 RUN pip install pydot graphviz imageio scikit-image
 
-RUN pip install keras pydot
+RUN pip install keras pydot opencv-python
 
 ENTRYPOINT [ "bash" ]
