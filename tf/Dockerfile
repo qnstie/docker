@@ -10,4 +10,5 @@ RUN pip install --upgrade pip
 
 RUN pip install pydot graphviz imageio scikit-image
 
-ENTRYPOINT [ "bash" ]
+ENTRYPOINT []
+CMD ["/bin/bash"]
